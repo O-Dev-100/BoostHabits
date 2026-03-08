@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252404357019",
+    "project_id": "boosthabits",
+    "storage_bucket": "boosthabits.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252404357019:android:e482caff744c9d89bc333e",
+        "android_client_info": {
+          "package_name": "com.boosthabits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB31MINNfP7ZghHyj6iOe5n8tk5Jx7G_jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
