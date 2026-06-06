@@ -1,0 +1,352 @@
+<resources>
+    <string name="app_name">BoostHabits</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="bienvenida_titulo">Welcome to BoostHabits</string>
+    <string name="bienvenida_descripcion">Create habits, maintain your streak, and earn virtual rewards. Let\'s start with an account to save your progress.</string>
+    <string name="bienvenida_boton_empezar">Start</string>
+
+    <!-- Auth -->
+    <string name="auth_titulo_login">Login</string>
+    <string name="auth_titulo_registro">Create Account</string>
+    <string name="auth_titulo_recuperar">Recover Password</string>
+    <string name="auth_hint_email">Email</string>
+    <string name="auth_hint_password">Password</string>
+    <string name="auth_hint_display_name">Name</string>
+    <string name="auth_boton_login">Login</string>
+    <string name="auth_boton_registro">Register</string>
+    <string name="auth_boton_google">Continue with Google</string>
+    <string name="auth_link_crear_cuenta">Don\'t have an account?</string>
+    <string name="auth_link_ya_tengo_cuenta">Already have an account?</string>
+    <string name="auth_link_olvido_password">Forgot password?</string>
+    <string name="auth_boton_enviar_recuperacion">Send recovery email</string>
+    <string name="auth_error_campos_vacios">Check fields: mandatory information is missing.</string>
+    <string name="auth_error_password_corta">Password must be at least 6 characters.</string>
+    <string name="auth_ok_email_enviado">If email exists, a recovery email has been sent.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_recompensas">Rewards</string>
+    <string name="nav_privacidad">Privacy Policy</string>
+    <string name="nav_legal">Legal Notice</string>
+    <string name="nav_ayuda">Help</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_idioma">Language (Spanish)</string>
+    <string name="nav_dark_mode">Dark Mode</string>
+    <string name="nav_privacidad_titulo">Privacy Policy</string>
+    <string name="nav_legal_titulo">Legal Notice</string>
+    <string name="nav_ayuda_titulo">Help</string>
+    <string name="nav_settings_titulo">Settings</string>
+    <string name="nav_header_config">Settings</string>
+    <string name="nav_header_legal">Legal &amp; Info</string>
+    <string name="nav_header_session">Session</string>
+    <string name="filter_all">All</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Hello!</string>
+    <string name="home_welcome_personalized">Hello, %1$s!</string>
+    <string name="home_racha">Streak</string>
+    <string name="home_today">Today</string>
+    <string name="home_habits_waiting">Habits in waiting</string>
+    <string name="home_habits">Your habits</string>
+    <string name="home_focus_label">Focus</string>
+    <string name="home_empty_title">All clear!</string>
+    <string name="home_empty_desc">You have no pending habits for today. Want to add a new one?</string>
+    <string name="home_recommendations">Recommendations</string>
+    <string name="home_explore">Explore</string>
+    <string name="home_mental_health">Improve Mental Health</string>
+    <string name="home_mental_health_desc">Meditate, read, or journal</string>
+    <string name="home_nutrition">Healthy Nutrition</string>
+    <string name="home_nutrition_desc">Eat better every day</string>
+    <string name="home_home_habits">Home and Order</string>
+    <string name="home_home_habits_desc">Your environment affects your mind</string>
+    <string name="home_btn_start">Start</string>
+    <string name="home_btn_done">Done</string>
+    <string name="home_status_starting">Starting \'%1$s\'. Check the waiting section.</string>
+    <string name="home_status_not_reached">Objective not reached yet (%1$d%%).</string>
+    <string name="home_status_wait">Wait: %1$dm %2$ds remaining.</string>
+    <string name="home_delete_title">Discard habit</string>
+    <string name="home_delete_message">Are you sure you want to delete \'%1$s\'? This action cannot be undone.</string>
+    <string name="home_delete_positive">Delete</string>
+    <string name="home_delete_negative">Cancel</string>
+    <string name="home_delete_success">Habit deleted</string>
+
+    <!-- Profile -->
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_personalization_section">Personalization and Rewards</string>
+    <string name="profile_coupons">Claimed Coupons</string>
+    <string name="profile_personalization">Personalization</string>
+    <string name="profile_account">Account</string>
+    <string name="profile_change_password">Change password</string>
+    <string name="profile_info_help">Information and Help</string>
+    <string name="profile_no_email">No email</string>
+    <string name="profile_update_success">Profile updated successfully</string>
+    <string name="profile_update_error">Error: %1$s</string>
+    <string name="profile_password_success">Password changed successfully</string>
+    <string name="profile_default_user">User</string>
+    <string name="profile_email_only">This option is only available for email registration</string>
+    <string name="profile_edit_name_hint">New name</string>
+    <string name="profile_edit_name_title">Edit Name</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_change_password_btn">Change</string>
+    <string name="profile_password_too_short">Too short</string>
+
+    <string name="privacy_content"><![CDATA[
+        Last Update: 2026
+
+        1. Information We Collect
+        BoostHabits collects basic information from your Google account (name, email, and profile picture) and physical activity data if you grant permission to Health Connect. This includes steps, distance, calories burned, and exercise sessions.
+
+        2. Use of Information
+        Your data is used exclusively for:
+        - Syncing your habits across devices via Firebase.
+        - Calculating your progress in real-time and awarding rewards (Gems and Coins).
+        - Personalizing your user experience (themes, frames, and avatars).
+        - Displaying your position on the global leaderboard.
+
+        3. Security and Storage
+        We use Firebase to store your data securely. We implement robust encryption and authentication measures. We do not sell or share your personal information with third parties for advertising purposes.
+
+        4. Health Connect Integration
+        BoostHabits acts as a viewer and aggregator of your health data. We do not generate this data directly but read it from your device\'s health database to automate your sports habit fulfillment.
+
+        5. Your Rights
+        You have the right to access, rectify, or delete your personal data. You can request the permanent deletion of your account and all associated data from the Settings section.
+    ]]></string>
+
+    <string name="legal_content"><![CDATA[
+        BoostHabits - Healthy Habit Management Application.
+
+        1. Intellectual Property
+        All intellectual property rights for the content of this application and its graphic design are the exclusive property of BoostHabits.
+
+        2. Liability
+        BoostHabits is not responsible for injuries or health problems resulting from performing the suggested physical activities. Consult with a professional before starting any intense exercise routine.
+
+        3. Use of the Application
+        The user agrees to make diligent use of the application and the services accessible from it.
+    ]]></string>
+
+    <string name="help_content"><![CDATA[
+        BoostHabits Help and Support Center
+
+        1. Habit Management
+        - Create: Press the center \'+\' button to choose a category and a habit.
+        - Complete: Manual habits require pressing the \'Done\' button. Physical activity habits are automatically completed if synced with Health Connect.
+        - Edit/Delete: Long-press a habit on the home list or access details to modify it.
+
+        2. Economy System (Gems and Coins)
+        - Gems: Earned with \'Physical Activity\' habits. Used to redeem real discount coupons in the shop.
+        - Coins: Earned with other habits. Used to buy cosmetics (frames, backgrounds, and styles).
+
+        3. Profile Personalization
+        Go to \'Rewards\' to buy a cosmetic. Once purchased, it will appear in your inventory. From \'Profile\' -> \'Personalization\', you can equip or unequip your acquisitions. Wallpapers also change the color theme of the entire application.
+
+        4. Health Sync (Health Connect)
+        If your steps or exercises do not appear, check the following:
+        - You have the \'Android Health\' or \'Health Connect\' app installed.
+        - You have granted read permissions to BoostHabits in Health Settings.
+        - The app recording the exercise (e.g., Google Fit, Samsung Health) is writing the data correctly to Health Connect.
+
+        5. Contact
+        If you experience any technical errors or have a suggestion, you can write to us at:
+        Email: support@boosthabits.com
+        Hours: Monday to Friday, 9:00 - 18:00.
+    ]]></string>
+    <string name="placeholder_development">Content in development for %1$s.</string>
+
+    <!-- Personalization -->
+    <string name="personalizacion_empty">You haven\'t purchased any personalizations yet</string>
+    <string name="personalizacion_type_name">Name Effect</string>
+    <string name="personalizacion_type_frame">Avatar Frame</string>
+    <string name="personalization_type_wallpaper">Wallpaper</string>
+    <string name="personalization_type_pfp">Profile Picture</string>
+
+    <!-- Rewards -->
+    <string name="reward_value_gems">+%1$d GEMS</string>
+    <string name="reward_value_coins">+%1$d COINS</string>
+    <string name="rewards_preview_title">PREVIEW</string>
+    <string name="rewards_tab_gems">Gems (Coupons)</string>
+    <string name="rewards_tab_coins">Coins (Cosmetics)</string>
+    <string name="rewards_redeem">Redeem</string>
+    <string name="rewards_insufficient_balance">Insufficient balance</string>
+    <string name="rewards_redeem_success">Offer redeemed successfully!</string>
+    <string name="rewards_redeem_success_cosmetic">Cosmetic unlocked and applied successfully</string>
+    <string name="rewards_redeem_success_coupon">Redeemed successfully. Your code is: %1$s</string>
+    <string name="rewards_share_title">Share code</string>
+    <string name="rewards_share_message">I got a code on BoostHabits! Use my code: %1$s</string>
+    <string name="rewards_terms_title">Terms and conditions</string>
+    <string name="rewards_terms_default">No additional conditions.</string>
+    <string name="rewards_btn_needed">You need %1$d more Gems</string>
+    <string name="rewards_btn_redeem">Redeem for %1$d Gems</string>
+    <string name="rewards_copy_success">Code copied to clipboard</string>
+    <string name="rewards_go_to_store">Go to store</string>
+    <string name="rewards_my_coupons_title">My Coupons</string>
+    <string name="rewards_empty_coupons">You haven\'t claimed any coupons yet</string>
+    <string name="rewards_claimed_on">Claimed on: %1$s</string>
+    <string name="reward_type_gems">Gems</string>
+    <string name="reward_type_coins">Coins</string>
+
+    <!-- Categories -->
+    <string name="category_physical">Physical Activity</string>
+    <string name="category_productivity">Productivity</string>
+    <string name="category_nutrition">Nutrition</string>
+    <string name="category_mental_health">Mental Health</string>
+    <string name="category_home">Home</string>
+    <string name="category_title">What do you want to improve today?</string>
+
+    <!-- Habit Presets -->
+    <string name="habit_run">Run</string>
+    <string name="habit_walk">Walk</string>
+    <string name="habit_bike">Cycling</string>
+    <string name="habit_hike">Hiking</string>
+    <string name="habit_elliptical">Elliptical</string>
+    <string name="habit_soccer">Soccer</string>
+    <string name="habit_basketball">Basketball</string>
+    <string name="habit_volleyball">Volleyball</string>
+    <string name="habit_tennis">Tennis</string>
+    <string name="habit_weights">Weights</string>
+    <string name="habit_yoga">Yoga</string>
+    <string name="habit_pilates">Pilates</string>
+
+    <string name="habit_plan_day">Plan the day</string>
+    <string name="habit_no_social">No social media</string>
+    <string name="habit_study">Study</string>
+    <string name="habit_deep_work">Deep Work</string>
+    <string name="habit_clean_email">Clean Email</string>
+
+    <string name="habit_fruit">Eat 1 fruit</string>
+    <string name="habit_light_dinner">Light dinner</string>
+    <string name="habit_water">Drink Water</string>
+    <string name="habit_healthy_breakfast">Healthy Breakfast</string>
+    <string name="habit_no_junk">No Junk Food</string>
+    <string name="habit_nuts">Nuts</string>
+    <string name="habit_less_salt">Less Salt</string>
+
+    <string name="habit_affirmations">Affirmations</string>
+    <string name="habit_gratitude">Gratitude</string>
+    <string name="habit_digital_detox">Digital Detox</string>
+    <string name="habit_meditate">Meditate</string>
+    <string name="habit_read_10">Read 10 pages</string>
+    <string name="habit_journal">Journal</string>
+    <string name="habit_podcast">Listen to Podcast</string>
+    <string name="habit_puzzle">Solve Puzzle</string>
+
+    <string name="habit_make_bed">Make the bed</string>
+    <string name="habit_clean">Clean</string>
+    <string name="habit_organize_clothes">Organize clothes</string>
+    <string name="habit_wash_dishes">Wash Dishes</string>
+    <string name="habit_water_plants">Water Plants</string>
+    <string name="habit_take_trash">Take out trash</string>
+    <string name="habit_ventilate">Ventilate Room</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Stats</string>
+    <string name="stats_activity_map">Habit Activity</string>
+    <string name="stats_weekly_progress">Weekly Progress</string>
+    <string name="stats_today_distribution">Today\'s Distribution</string>
+    <string name="stats_max_streak">Max Streak</string>
+    <string name="stats_total_points_label">Total Points</string>
+    <string name="stats_community_ranking">Community Ranking</string>
+    <string name="stats_yearly_summary">Yearly Habit Summary</string>
+    <string name="stats_empty_title">No data yet</string>
+    <string name="stats_empty_desc">Complete your first habit to start seeing charts of your progress and streaks.</string>
+    <string name="stats_loading_weekly">Loading weekly progress&#8230;</string>
+    <string name="stats_no_data_today">No data for today</string>
+    <string name="stats_coins_obtained">Coins earned</string>
+    <string name="stats_completed">Completed</string>
+    <string name="stats_pending">Pending</string>
+    <string name="stats_days">days</string>
+    <string name="stats_steps">steps</string>
+
+    <!-- Difficulty -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="stats_hard">Hard</string>
+    <string name="stats_less">Less</string>
+    <string name="stats_more">More</string>
+
+    <!-- Presets -->
+    <string name="preset_select_steps">Select how many steps you will take</string>
+    <string name="preset_verifiable">Verifiable by Health Connect / Google</string>
+    <string name="preset_already_exists">You already have the habit \'%1$s\' pending completion.</string>
+    <string name="preset_accepted">Habit \'%1$s\' accepted!</string>
+
+    <!-- Home Cards -->
+    <string name="home_card_coins_title">Coins</string>
+    <string name="home_card_coins_desc">Use them to customize your profile with unique frames, backgrounds, and photos.</string>
+    <string name="home_card_gems_title">Gems</string>
+    <string name="home_card_gems_desc">Earn them through sports and redeem them for exclusive discount coupons.</string>
+    <string name="home_card_rewards_title">Rewards</string>
+    <string name="home_card_rewards_desc">Your efforts pay off! Explore the shop to see what you can redeem.</string>
+    <string name="home_card_add_habit">Ready for a new challenge? Create a habit now.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_progress">Habit Progress</string>
+    <string name="notification_channel_progress_desc">Notifications about the progress of your physical habits</string>
+    <string name="notification_channel_welcome">Welcome</string>
+    <string name="notification_channel_welcome_desc">Welcome notifications</string>
+    <string name="notification_channel_reminders">Reminders</string>
+    <string name="notification_channel_reminders_desc">Alerts so you don\'t forget your habits</string>
+
+    <string name="notification_welcome_title">Hello, %1$s!</string>
+    <string name="notification_welcome_body">Ready to complete your habits today?</string>
+    <string name="notification_progress_title">Progress: %1$s</string>
+    <string name="notification_progress_body">You\'re at %1$d%% of your goal of %2$s</string>
+    <string name="notification_completion_title">Habit Completed!</string>
+    <string name="notification_completion_body">You reached your goal in: %1$s</string>
+    <string name="notification_reminder_title">Don\'t give up!</string>
+    <string name="notification_reminder_body">You still have habits pending for today. You can do it!</string>
+
+    <string name="motivational_1">Your progress today is great</string>
+    <string name="motivational_2">Every little step counts</string>
+    <string name="motivational_3">Today is a great day to improve!</string>
+    <string name="motivational_4">Discipline is the bridge to success</string>
+    <string name="motivational_5">Your habits define your future</string>
+    <string name="motivational_6">Keep it up, you\'re doing very well</string>
+    <string name="motivational_7">Don\'t stop until you\'re proud</string>
+    <string name="motivational_8">Consistency is key</string>
+    <string name="motivational_9">One day at a time, one habit at a time</string>
+    <string name="motivational_10">Go for your goals today!</string>
+    <!-- Rewards Offers -->
+    <string name="reward_nike_title">30% discount at Nike</string>
+    <string name="reward_nike_desc">Valid for the entire running collection.</string>
+    <string name="reward_adidas_title">FREE shipping at Adidas</string>
+    <string name="reward_adidas_desc">No minimum order for BoostHabits members.</string>
+    <string name="reward_shein_title">50% Discount at Shein</string>
+    <string name="reward_shein_desc">Check minimum requirements to use the coupon</string>
+
+    <string name="reward_legendary_name_title">Legendary Name</string>
+    <string name="reward_legendary_name_desc">Golden gradient effect and glow</string>
+    <string name="reward_gold_name_title">Pure Gold Name</string>
+    <string name="reward_gold_name_desc">Intense metallic gold effect</string>
+    <string name="reward_amber_name_title">Amber Name</string>
+    <string name="reward_amber_name_desc">Warm amber glow effect</string>
+
+    <string name="reward_bg_light_title">Light Background</string>
+    <string name="reward_bg_light_desc">Midnight navy and light purple theme</string>
+    <string name="reward_bg_cloudy_title">Cloudy Background</string>
+    <string name="reward_bg_cloudy_desc">Turquoise and white gradient theme</string>
+
+    <string name="reward_pfp_water_title">Water Profile</string>
+    <string name="reward_pfp_water_desc">Refreshing drop icon</string>
+    <string name="reward_pfp_yoga_title">Yoga Profile</string>
+    <string name="reward_pfp_yoga_desc">Balance and peace icon</string>
+    <string name="reward_pfp_apple_title">Apple Profile</string>
+    <string name="reward_pfp_apple_desc">Health and nutrition icon</string>
+    <string name="reward_pfp_book_title">Book Profile</string>
+    <string name="reward_pfp_book_desc">Wisdom and reading icon</string>
+    <string name="reward_pfp_salad_title">Salad Profile</string>
+    <string name="reward_pfp_salad_desc">Healthy food icon</string>
+    <string name="reward_pfp_shoes_title">Shoes Profile</string>
+    <string name="reward_pfp_shoes_desc">Sport and action icon</string>
+    <string name="habit_daily_goal">%1$d per day</string>
+    <string name="habit_unit_meters">m</string>
+    <string name="habit_unit_kcal">kcal</string>
+    <string name="habit_unit_min">min</string>
+    <string name="google_web_client_id">252404357019-dms6cvf58871a9nkn4pmj9spegfog7un.apps.googleusercontent.com</string>
+</resources>

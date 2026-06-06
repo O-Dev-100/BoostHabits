@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Light Theme - Palette: Celeste & White -->
+    <color name="color_primary">#006494</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_primary_container">#CBF0FF</color>
+    <color name="color_on_primary_container">#001E2F</color>
+
+    <color name="color_secondary">#00B0FF</color> <!-- Celeste accent -->
+    <color name="color_on_secondary">#FFFFFF</color>
+    <color name="color_secondary_container">#D1F0FF</color>
+    <color name="color_on_secondary_container">#001C2B</color>
+
+    <color name="color_background">#F8FDFF</color>
+    <color name="color_on_background">#191C1E</color>
+
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_on_surface">#191C1E</color>
+    <color name="color_surface_variant">#DDE3EA</color>
+    <color name="color_on_surface_variant">#41484D</color>
+
+    <color name="color_outline">#71787D</color>
+
+    <color name="card_points_bg">#00344D</color>
+    <color name="color_success">#2E7D32</color>
+    <color name="color_error">#BA1A1A</color>
+
+    <!-- Rank Colors -->
+    <color name="rank_gold">#FFD700</color>
+    <color name="rank_silver">#C0C0C0</color>
+    <color name="rank_bronze">#CD7F32</color>
+
+    <!-- Glassmorphism helpers -->
+    <color name="glass_white_20">#33FFFFFF</color>
+    <color name="glass_white_50">#80FFFFFF</color>
+
+    <!-- Heatmap Levels (Light) -->
+    <color name="heatmap_empty">#EBEDF0</color>
+    <color name="heatmap_level_1">#CBF0FF</color>
+    <color name="heatmap_level_2">#89CEFF</color>
+    <color name="heatmap_level_3">#00B0FF</color>
+    <color name="heatmap_level_4">#006494</color>
+
+    <!-- Theme Cloudy (Nubloso) - Navy Blue & Light Purple -->
+    <color name="cloudy_primary">#B1C5FF</color>
+    <color name="cloudy_on_primary">#002D6E</color>
+    <color name="cloudy_primary_container">#004299</color>
+    <color name="cloudy_on_primary_container">#D9E2FF</color>
+    <color name="cloudy_secondary">#D1C4E9</color>
+    <color name="cloudy_on_secondary">#311B92</color>
+    <color name="cloudy_background">#001B3D</color> <!-- Azul marino oscuro -->
+    <color name="cloudy_on_background">#E3E2E6</color>
+    <color name="cloudy_surface">#1A2C4E</color> <!-- Un poco más claro que el fondo para las cards -->
+    <color name="cloudy_on_surface">#E3E2E6</color>
+    <color name="cloudy_surface_variant">#44474F</color>
+    <color name="cloudy_on_surface_variant">#C4C6D0</color>
+
+    <!-- Theme Light (Claro) - Turquoise & White -->
+    <color name="light_theme_primary">#006B5E</color>
+    <color name="light_theme_on_primary">#FFFFFF</color>
+    <color name="light_theme_primary_container">#76F8E2</color>
+    <color name="light_theme_on_primary_container">#00201B</color>
+    <color name="light_theme_secondary">#4D635D</color>
+    <color name="light_theme_on_secondary">#FFFFFF</color>
+    <color name="light_theme_background">#F4FBFA</color>
+    <color name="light_theme_on_background">#191C1C</color>
+    <color name="light_theme_surface">#FFFFFF</color> <!-- Blanco puro para que resalte sobre el fondo turquesa claro -->
+    <color name="light_theme_on_surface">#191C1C</color>
+    <color name="light_theme_surface_variant">#DAE5E1</color>
+    <color name="light_theme_on_surface_variant">#3F4947</color>
 </resources>

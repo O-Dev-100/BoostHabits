@@ -1,0 +1,36 @@
+<!-- ic_forest.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Suelo -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M2,18h20v2H2z" />
+
+    <!-- Árbol central -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M12,4L7,14h10z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M11,14h2v4h-2z" />
+
+    <!-- Árbol lateral izquierdo -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M5,8L3,13h4z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M4.5,13h1v3h-1z" />
+
+    <!-- Árbol lateral derecho -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M19,8l-2,5h4z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M18.5,13h1v3h-1z" />
+</vector>

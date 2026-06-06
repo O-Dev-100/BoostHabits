@@ -12,7 +12,20 @@
           "package_name": "com.boosthabits"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "252404357019-mbick7gsgoursi1po5d1d6qtk7uisvir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boosthabits",
+            "certificate_hash": "8b5c0157c4ff66647fe65834fbe84eb3f2142804"
+          }
+        },
+        {
+          "client_id": "252404357019-dms6cvf58871a9nkn4pmj9spegfog7un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB31MINNfP7ZghHyj6iOe5n8tk5Jx7G_jY"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252404357019-dms6cvf58871a9nkn4pmj9spegfog7un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

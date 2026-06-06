@@ -3,26 +3,181 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/navigation_home">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.boosthabits.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/navigation_home"
+        android:name="com.boosthabits.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_navigation_home_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_categorySelectorFragment"
+            app:destination="@id/categorySelectorFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_habitDetailFragment"
+            app:destination="@id/habitDetailFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_habitsListFragment"
+            app:destination="@id/habitsListFragment" />
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.boosthabits.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/categorySelectorFragment"
+        android:name="com.boosthabits.ui.habitos.CategoriaSelectorFragment"
+        android:label="@string/category_title"
+        tools:layout="@layout/fragment_category_selector">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_categorySelectorFragment_to_presetListFragment"
+            app:destination="@id/presetListFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/presetListFragment"
+        android:name="com.boosthabits.ui.habitos.PresetListFragment"
+        android:label="@string/category_title"
+        tools:layout="@layout/fragment_preset_list">
+        <argument
+            android:name="categoryId"
+            app:argType="integer" />
+        <argument
+            android:name="categoryTitle"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.boosthabits.ui.stats.StatsFragment"
+        android:label="@string/nav_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/navigation_rewards"
+        android:name="com.boosthabits.ui.recompensas.RecompensasFragment"
+        android:label="@string/nav_recompensas"
+        tools:layout="@layout/fragment_rewards" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.boosthabits.ui.perfil.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_navigation_profile_to_personalizationFragment"
+            app:destination="@id/personalizationFragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_legalFragment"
+            app:destination="@id/legalFragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_navigation_profile_to_myCouponsFragment"
+            app:destination="@id/myCouponsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myCouponsFragment"
+        android:name="com.boosthabits.ui.cupones.MisCuponesFragment"
+        android:label="@string/profile_coupons"
+        tools:layout="@layout/fragment_my_coupons" />
+
+    <fragment
+        android:id="@+id/personalizationFragment"
+        android:name="com.boosthabits.ui.perfil.PersonalizacionFragment"
+        android:label="@string/profile_personalization"
+        tools:layout="@layout/fragment_personalization" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.boosthabits.ui.home.NotificacionesFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/habitsListFragment"
+        android:name="com.boosthabits.ui.habitos.HabitosListFragment"
+        android:label="@string/home_habits">
+        <action
+            android:id="@+id/action_habitsListFragment_to_createHabitFragment"
+            app:destination="@id/createHabitFragment" />
+        <action
+            android:id="@+id/action_habitsListFragment_to_habitDetailFragment"
+            app:destination="@id/habitDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createHabitFragment"
+        android:name="com.boosthabits.ui.habitos.CreateHabitoFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/habitDetailFragment"
+        android:name="com.boosthabits.ui.habitos.HabitoDetalleFragment"
+        android:label="@string/nav_home">
+        <argument
+            android:name="habitId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/focusFragment"
+        android:name="com.boosthabits.ui.focus.FocusFragment"
+        android:label="Enfoque"
+        tools:layout="@layout/fragment_focus">
+        <argument
+            android:name="habitId"
+            app:argType="long" />
+        <argument
+            android:name="habitName"
+            app:argType="string" />
+        <argument
+            android:name="durationMinutes"
+            app:argType="integer" />
+        <argument
+            android:name="isSaludMental"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.boosthabits.ui.PlaceholderFragment"
+        android:label="@string/nav_settings_titulo">
+        <argument
+            android:name="title"
+            android:defaultValue="Ajustes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.boosthabits.ui.PlaceholderFragment"
+        android:label="@string/nav_privacidad_titulo">
+        <argument
+            android:name="title"
+            android:defaultValue="Política de Privacidad" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/legalFragment"
+        android:name="com.boosthabits.ui.PlaceholderFragment"
+        android:label="@string/nav_legal_titulo">
+        <argument
+            android:name="title"
+            android:defaultValue="Aviso Legal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.boosthabits.ui.PlaceholderFragment"
+        android:label="@string/nav_ayuda_titulo">
+        <argument
+            android:name="title"
+            android:defaultValue="Ayuda" />
+    </fragment>
+
 </navigation>

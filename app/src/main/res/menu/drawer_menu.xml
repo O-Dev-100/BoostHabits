@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/nav_header_config">
+        <menu>
+            <item
+                android:id="@+id/menu_toggle_language"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="@string/nav_idioma"
+                app:actionViewClass="android.widget.Switch" />
+            <item
+                android:id="@+id/menu_toggle_theme"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="@string/nav_dark_mode"
+                app:actionViewClass="android.widget.Switch" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_header_legal">
+        <menu>
+            <item
+                android:id="@+id/privacyFragment"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/nav_privacidad" />
+            <item
+                android:id="@+id/legalFragment"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="@string/nav_legal" />
+            <item
+                android:id="@+id/helpFragment"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/nav_ayuda" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_header_session">
+        <menu>
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+
+</menu>

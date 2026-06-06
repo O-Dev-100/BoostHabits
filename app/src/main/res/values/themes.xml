@@ -1,9 +1,134 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BoostHabits" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.BoostHabits" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorPrimaryContainer">@color/color_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/color_on_primary_container</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="android:statusBarColor">@color/color_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorSurfaceVariant">@color/color_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/color_on_surface_variant</item>
+        <item name="colorOutline">@color/color_outline</item>
+
+        <!-- tipografía Montserrat -->
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+
+
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.App.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.App.HeadlineMedium</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.App.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.App.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.App.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.App.BodyMedium</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.App.LabelLarge</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
     </style>
 
     <style name="Theme.BoostHabits" parent="Base.Theme.BoostHabits" />
+
+    <style name="Theme.BoostHabits.Cloudy" parent="Base.Theme.BoostHabits">
+        <item name="colorPrimary">@color/cloudy_primary</item>
+        <item name="colorOnPrimary">@color/cloudy_on_primary</item>
+        <item name="colorPrimaryContainer">@color/cloudy_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/cloudy_on_primary_container</item>
+        <item name="colorSecondary">@color/cloudy_secondary</item>
+        <item name="colorOnSecondary">@color/cloudy_on_secondary</item>
+        <item name="android:statusBarColor">@color/cloudy_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/cloudy_background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:colorBackground">@color/cloudy_background</item>
+        <item name="colorOnBackground">@color/cloudy_on_background</item>
+        <item name="colorSurface">@color/cloudy_surface</item>
+        <item name="colorOnSurface">@color/cloudy_on_surface</item>
+        <item name="colorSurfaceVariant">@color/cloudy_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cloudy_on_surface_variant</item>
+    </style>
+
+    <style name="Theme.BoostHabits.Light" parent="Base.Theme.BoostHabits">
+        <item name="colorPrimary">@color/light_theme_primary</item>
+        <item name="colorOnPrimary">@color/light_theme_on_primary</item>
+        <item name="colorPrimaryContainer">@color/light_theme_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/light_theme_on_primary_container</item>
+        <item name="colorSecondary">@color/light_theme_secondary</item>
+        <item name="colorOnSecondary">@color/light_theme_on_secondary</item>
+        <item name="android:statusBarColor">@color/light_theme_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/light_theme_background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:colorBackground">@color/light_theme_background</item>
+        <item name="colorOnBackground">@color/light_theme_on_background</item>
+        <item name="colorSurface">@color/light_theme_surface</item>
+        <item name="colorOnSurface">@color/light_theme_on_surface</item>
+        <item name="colorSurfaceVariant">@color/light_theme_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/light_theme_on_surface_variant</item>
+    </style>
+
+    <!-- Estilo para la BottomBar -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <style name="TextAppearance.App.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.App.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="Widget.App.Card.Premium" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="Widget.App.Card.Habit" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">?attr/colorPrimaryContainer</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
 </resources>

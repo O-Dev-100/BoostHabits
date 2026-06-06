@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Certificados por defecto para fuentes de Google Play Services -->
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx980IwDQYJKoZIhvcNAQELBQAwZTELMAkGA1UEBhMCVVMx
+            EzARBgNVBAgMCkNhbGlmb3JuaWExFDASBgNVBAcMC1N1bm55dmFsZTEPMA0GA1UECgwGR29v
+            Z2xlMQ8wDQYDVQQLDAZHb29nbGUxGDAWBgNVBAMMD0dvb2dsZSBBbmRyb2lkMB4XDTE2MDUw
+            NjE2MDAwMFoXDTQzMDkyMjE2MDAwMFowZTELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlm
+            b3JuaWExFDASBgNVBAcMC1N1bm55dmFsZTEPMA0GA1UECgwGR29vZ2xlMQ8wDQYDVQQLDAZH
+            b29nbGUxGDAWBgNVBAMMD0dvb2dsZSBBbmRyb2lkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+            MIIBCgKCAQEArZ6Ddui6yah5p3dlqzDh0Z5JXnp1wXQ0Ocu3l6N5Cq9fXpOrsRg2Rjl1pKC9
+            7uV2o2p6bDuN6H2m9jYf9bZLZ8WwtGLNDtoSHzCF8cEQSSXYUUxWge0q9IoKTU5s4kB0Ydc7
+            9J0juyjgFZkWg4a3zYikRJ4qe2UK7mWmkhLtqDmH15P8J5IhTgVdXj4eUn17ImFxwa1A88Vi
+            BTPTHZHVl1lV7pZOWTB5jNn7nPdkL7aF4XYyowRmko+ufgL2mLwV1aPZQGJfsg7AuG55JsE6
+            6vKAyO7dQhs1x1DNSx1xgNobfgJLb_rCEKUKbKUcpxtx0k4GyLhg3e2ZlwIDAQABo1AwTjAd
+            BgNVHQ4EFgQUjRjZqIB4PyJVWwz6lpo2H_XNCEMwHwYDVR0jBBgwFoAUjRjZqIB4PyJVWwz6
+            lpo2H_XNCEMwDAYDVR0TBAUwAwEB_zANBgkqhkiG9w0BAQsFAAOCAQEAr77QdkZqJQj5ZkEX
+            tG10ZbQTJ9jkKWXJtyPnDqCxudokryG2e3OFoqfQjAVBjJcM_gmVUUgjFQ-bnXtmIhYktPLD
+            6FMBdWz35jZqozJApskLBTjFQ2Zw-OHSqQR0d_iKbp0e6ZCUp_E0VVH-A1Ah6Ja5Q9ldU_Uz
+            fG4vIkLkJG_Sv5x26N5eYSZKx-5UZpOKT3WBqeNx_9mii8Z8yXwKlJFUcime_xGZmqhjLykF
+            suwF6VTRUUNjaKISwWcQNeRwz5a87BhY0YUccmQFx1U6Pxo2I1N6czYrJmmv6xY9Uj5Qs1DN
+            aT8T9J9u-psKc4W_3Bx8QL6AYqZV0imXDYw==
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEqzCCA5OgAwIBAgIJAMcK6Feg7dCZMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYDVQQGEwJV
+            UzETMBEGA1UECAwKQ2FsaWZvcm5pYTEUMBIGA1UEBwwLU3Vubnl2YWxlMRAwDgYDVQQKDAdH
+            b29nbGUxEDAOBgNVBAsMB0FuZHJvaWQxGzAZBgNVBAMMEkFuZHJvaWQgUm9vdCBDQS0yMTE0
+            MR8wHQYJKoZIhvcNAQkBFhBhbmRyb2lkQGdvb2dsZS5jb20wHhcNMTQwNTE1MDc0MjM2WhcN
+            MzQwNTEwMDc0MjM2WjCBtjELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFDAS
+            BgNVBAcMC1N1bm55dmFsZTEQMA4GA1UECgwHR29vZ2xlMRAwDgYDVQQLDAdBbmRyb2lkMR8w
+            HQYDVQQLDBZBbHNvIGZvciBHb29nbGUgV29yayBMdGQxGDAWBgNVBAMMD0dvb2dsZSBBbmRy
+            b2lkMR8wHQYJKoZIhvcNAQkBFhBhbmRyb2lkQGdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEB
+            AQUAA4IBDwAwggEKAoIBAQC8vg07x1BHiJgJvjZrQzLkdI6F2qOHw0aFzosJrejbxm1uw3jF
+            srZzbG9pA0J5uFXAM8vMJkdAnjfZNRTrCcmuSIZ2vJsnElqYxvWfoWltWCpAcKN3KcWeqI8Y
+            t15ZsTYcujbsrtdUQViBcIgipucmqbW8hJ8O9qjDcdwDcnixHl4G7K5cxY8rEAm9gB0b9iVU
+            LJ2URh-E1fbQCoRaDn4Rli8pA07ydDYbLqEI-24KD7eZPZsWsyplCaWpP3Ry0r62TrA1YoO9
+            uKsi2VL1EMae4pyY5phF_cdluKM8EV1aNBr5USgL-ygUBsHJvRc9vhJPNqOYAdkEqg8vR3OS
+            5KiJAgMBAAGjgeYwgeMwHQYDVR0OBBYEFDfFYRmp8tOklyH5GxIf2dMh3F7YMIHDBgNVHSME
+            gdAwgc2AFKCk6xpa1uWvjoX65C25IbglAl1toYGupIGrMIGoMQswCQYDVQQGEwJVUzETMBEG
+            A1UECAwKQ2FsaWZvcm5pYTEUMBIGA1UEBwwLU3Vubnl2YWxlMRAwDgYDVQQKDAdHb29nbGUx
+            EDAOBgNVBAsMB0FuZHJvaWQxGzAZBgNVBAMMEkFuZHJvaWQgUm9vdCBDQS0yMTE0MR8wHQYJ
+            KoZIhvcNAQkBFhBhbmRyb2lkQGdvb2dsZS5jb22CAQAwDAYDVR0TBAUwAwEB_zANBgkqhkiG
+            9w0BAQsFAAOCAQEAZgsEfK5x7KZe3qsrs1eVU1pSyvPopCxGgfkygaso3NoZLwH5EJ0D6AQj
+            45jwl6iqpZc7FUxL1ZrQG9JsiI_rFUt3Y1OsC4F_FZlD-myH6FGeb5zH8ZlmG1hZb8ltkiVC
+            pf75zZaDm8bGZLJNq1tYVDehbE9aQsr37XLZT1zz3naXYocAFbdE6SYaShp5NEFbGPdD-OuO
+            tX0lkS5egpKuZWox7S2qQJEazLd-KABGwv0cap9vLT2kI_g1_jo8lOsQyrPQXhjY7BeM83p0
+            caPqSqK1KK0WVWTdvfsQfJFZ2jQzO6jx3jtfBdRSnaysX4O4W-GFnJfm5-LOKwSPb_Fw==
+        </item>
+    </string-array>
+</resources>
+

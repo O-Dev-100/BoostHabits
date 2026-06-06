@@ -1,4 +1,4 @@
-package com.example.boosthabits
+package com.boosthabits
 
 import org.junit.Test
 
