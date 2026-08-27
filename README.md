@@ -11,7 +11,7 @@ Aplicación Android para la gestión de hábitos con mecánicas de RPG y gamific
 - 🎨 **Personalización Dinámica**: Sistema de temas, fondos y cosméticos desbloqueables.
 - 🌍 **Multi-idioma**: Soporte completo para Español e Inglés.
 
-🛠 Tecnologías
+🛠 **Tecnologías**
 
 - **Kotlin** & **Jetpack Compose / XML Layouts**
 - **Room Database** (Persistencia local)
